@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:padding="@dimen/margin_4"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_productstosell"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/margin_15"
+            android:text="PRODUCTS TO SELL"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_13"
+            android:drawableLeft="@drawable/ic_dollar_coins"
+            android:gravity="center"
+            android:drawablePadding="@dimen/margin_4"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_1"
+            android:layout_marginLeft="@dimen/margin_2"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tv_browseshops"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:padding="@dimen/margin_15"
+            android:text="BROWSE SHOPS"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_13"
+            android:drawableLeft="@drawable/ic_shopping_bag"
+            android:gravity="center"
+            android:drawablePadding="@dimen/margin_4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <View
+            android:layout_width="@dimen/margin_1"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_2"
+            android:layout_marginTop="@dimen/margin_2"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray" />
+
+        <View
+            android:layout_width="@dimen/margin_1"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_2"
+            android:layout_marginTop="@dimen/margin_2"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+
+        <TextView
+            android:id="@+id/tv_myproducts"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/margin_15"
+            android:text="MY PRODUCTS"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_13"
+            android:drawableLeft="@drawable/ic_dress"
+            android:gravity="center"
+            android:drawablePadding="@dimen/margin_4"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_1"
+            android:layout_marginRight="@dimen/margin_2"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tv_findbuyers"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/margin_15"
+            android:text="FIND BUYERS"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_13"
+            android:drawableLeft="@drawable/ic_shopping_cart"
+            android:gravity="center"
+            android:drawablePadding="@dimen/margin_4" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
